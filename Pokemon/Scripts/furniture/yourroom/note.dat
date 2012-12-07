@@ -1,6 +1,6 @@
-@Text:It's a note on the~wall about the controls.*Do you want to read it?
+@Text:C'est une note sur le~mur à propos des commandes.*Voulez-vous la lire?
 @Options:Yes,No
 :when:Yes
-@Text:The controls in Pokemon:~Move: [W]~Watch: [A][S][D]~Change camera: [C]~Open menu: [E]~Mute music: [M]~Hide GUI: [F1]~Take screenshot: [F2]~Change camera mode: [F5]
+@Text:Les commandes dans POKéMON:~Se déplacer: [W]~Regarder: [A][S][D]~Changer la caméra: [C]~Ouvrir le menu: [E]~Couper le son: [M]~Masquer l'interface: [F1]~Capture d'écran: [F2]~Changer le mode caméra: [F5]
 :endwhen
 :end

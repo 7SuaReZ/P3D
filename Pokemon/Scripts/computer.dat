@@ -1,10 +1,10 @@
-@Text:Booting up the PC...*Choose a host to~connect to.
-@Options:Bills PC,<playername>s PC,Hall of Fame,Log off
-:when:Bills PC
-@Text:Pokemon storage~system accessed.
+@Text:<playername> allume~le PC.*Que voulez-vous~faire?
+@Options:PC de Bill,PC de <playername>,Meilleurs scores,Déconnexion
+:when:PC de Bill
+@Text:Accès au~stockage POKéMON.
 @Action:StorageSystem
-:when:Log off
-@Text:Kolben OS~shutting down...
+:when:Déconnexion
+@Text:<playername> éteint le PC.
 :end
 :endwhen
 :end

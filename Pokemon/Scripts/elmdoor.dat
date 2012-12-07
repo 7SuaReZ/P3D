@@ -1,6 +1,6 @@
 :if:register(elm1)
 :then
-@Text:ELM: Wait! Where~are you going?
+@Text:PROF.ORME: Hep!~Où vas-tu l'ami?
 @Turn:Player,2
 @Move:Player,1
 :endif
@@ -10,9 +10,9 @@
 @Register:elm0
 @Register:elm1
 @Move:Player,4
-@Text:Elm: <playername>!~There you are!*I needed to ask you~a favor.*I have a acquaintance~called MR.POKEMON.*He keeps finding weird~things and raving about~his discoveries.*Anyway, I just got an~e-mail from him~saying that this~time it's real.*It is intriguing, but~we're busy with out~POKEMON research.*Could you look into~it for us?*I'll give you a~POKEMON for a partner.
+@Text:PROF.ORME: <playername>~te voilà!*Peux-tu me rendre~un service?*J'ai un collègue~qu'on appelle M.POKéMON.*Il découvre sans~cesse des choses~bizarres et ennuie~tout le monde avec~ses trouvailles.*Bref, j'ai reçu un~e-mail disant que~cette fois c'est~la bonne.*Cela m'intrigue,~mais nous sommes~débordés avec nos~recherches sur les~POKéMON.*Peux tu t'en~occuper pour moi?*Tu auras bien~besoin d'un de mes~POKéMON comme~partenaire.
 @Turn:Player,3
-@Text:They're all rare~POKEMON that we~just found.~Go on. Pick one!
+@Text:Tous ces POKéMON~sont rares et~trouvés récemment.*Bon, prends-en un!
 :endif
 
 :if:register(elm2)
@@ -22,9 +22,9 @@
 @Move:4,2
 @Turn:4,0
 @Move:4,1
-@Text:<playername>, I want~you to have this~for your errand.
+@Text:<playername>, accepte~ceci pour ta~commission.
 @GiveItem:18,1
-@Text:There are only two~of us, so we're~always busy.
+@Text:On est seulement~deux, alors on est~toujours occupés.
 @Turn:4,2
 @Move:4,1
 @Turn:4,1

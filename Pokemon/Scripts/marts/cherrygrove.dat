@@ -1,8 +1,8 @@
-@Text:Welcome!~What do you need?
-@Options:Buy,See Ya!
-:when:Buy
+@Text:Bonjour!~Que désirez-vous?
+@Options:Acheter,Au revoir!
+:when:Acheter
 @Action:Trade({5|-1|-1}{18|-1|-1},True,True)
-:when:See Ya!
+:when:Au revoir!
 
 :endwhen
 :end

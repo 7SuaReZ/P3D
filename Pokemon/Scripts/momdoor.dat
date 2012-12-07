@@ -1,0 +1,15 @@
+:if:not register(mom_start)
+:then
+@Register:mom_start
+@Turn:0,3
+@Move:0,1
+@Turn:0,0
+@Move:0,1
+@Text:Oh, <playername>...! Our~neighbor, PROF.~ELM, was looking~for you.*He said he wanted~you to do something~for him.
+@Turn:0,2
+@Move:0,1
+@Turn:0,1
+@Move:0,1
+@Register:mom_wait
+:endif
+:end

@@ -1,0 +1,18 @@
+@Text:Choose
+@Options:Bills PC,Nils PC,Hall of Fame,Log off
+:when:Bills PC
+@Text:Bills PC
+:when:Nils PC
+@Text:Nils PC
+:when:Hall of Fame
+@Text:Hall of Fame
+@Options:Yes,No
+:when:Yes
+@Text:Kuchen
+:when:No
+@Text:Huhn
+:endwhen
+:when:Log off
+@Text:Log off
+:endwhen
+:end

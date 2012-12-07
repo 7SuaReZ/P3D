@@ -1,0 +1,11 @@
+@Turn:2,3
+@Text:......*So this is the famous~Elm Pokemon Lab
+@Turn:2,1
+@Text:......*What are you~staring at?
+@Move:2,1
+@Turn:Player,3
+@Move:Player,1
+@Turn:2,3
+@Move:2,1
+@Turn:Player,2
+:end

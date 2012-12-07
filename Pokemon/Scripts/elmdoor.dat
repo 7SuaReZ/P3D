@@ -1,0 +1,38 @@
+:if:register(elm1)
+:then
+@Text:ELM: Wait! Where~are you going?
+@Turn:Player,2
+@Move:Player,1
+:endif
+
+:if:not register(elm0)
+:then
+@Register:elm0
+@Register:elm1
+@Move:Player,4
+@Text:Elm: <playername>!~There you are!*I needed to ask you~a favor.*I have a acquaintance~called MR.POKEMON.*He keeps finding weird~things and raving about~his discoveries.*Anyway, I just got an~e-mail from him~saying that this~time it's real.*It is intriguing, but~we're busy with out~POKEMON research.*Could you look into~it for us?*I'll give you a~POKEMON for a partner.
+@Turn:Player,3
+@Text:They're all rare~POKEMON that we~just found.~Go on. Pick one!
+:endif
+
+:if:register(elm2)
+:then
+@Unregister:elm2
+@Turn:4,3
+@Move:4,2
+@Turn:4,0
+@Move:4,1
+@Text:<playername>, I want~you to have this~for your errand.
+@GiveItem:18,1
+@Text:There are only two~of us, so we're~always busy.
+@Turn:4,2
+@Move:4,1
+@Turn:4,1
+@Move:4,2
+@Register:elm3
+@Register:mom_adventure1
+@Unregister:mom_wait
+@NPC:register(barktown.dat|2|remove|1)
+:endif
+
+:end

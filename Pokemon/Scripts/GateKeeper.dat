@@ -1,0 +1,17 @@
+:if:daytime(0)
+:then
+@Text:Be careful and~have a good day, Sir!
+:endif
+:if:daytime(1)
+:then
+@Text:Good morning, Sir!
+:endif
+:if:daytime(2)
+:then
+@Text:Good day, Sir!
+:endif
+:if:daytime(3)
+:then
+@Text:Good evening, Sir!
+:endif
+:end

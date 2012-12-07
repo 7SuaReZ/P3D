@@ -1,0 +1,6 @@
+@Text:It's a note on the~wall about the controls.*Do you want to read it?
+@Options:Yes,No
+:when:Yes
+@Text:The controls in Pokemon:~Move: [W]~Watch: [A][S][D]~Change camera: [C]~Open menu: [E]~Mute music: [M]~Hide GUI: [F1]~Take screenshot: [F2]~Change camera mode: [F5]
+:endwhen
+:end

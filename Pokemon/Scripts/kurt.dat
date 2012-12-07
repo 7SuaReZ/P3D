@@ -1,0 +1,7 @@
+@Text:Hm?~Who are you?~<playername>, eh?*You want me to~make some Balls?
+@Options:Yes,No
+:when:Yes
+@Action:ApricornKurt
+:when:No
+:endwhen
+:end

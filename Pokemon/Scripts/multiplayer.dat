@@ -1,0 +1,6 @@
+@Text:Do you want to~connect your game~to the network~to play with others?
+@Options:Yes,No
+:when:Yes
+@Action:Network
+:endwhen
+:end

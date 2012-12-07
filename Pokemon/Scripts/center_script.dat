@@ -1,0 +1,28 @@
+:if:daytime(0)
+:then
+@Text:Hello, and welcome to~the Pokemon Center.*We restore your tired~Pokemon to full health.*Would you like to rest~your Pokemon?
+:endif
+:if:daytime(1)
+:then
+@Text:Good morning! Welcome~to the Pokemon Center.*We restore your tired~Pokemon to full health.*Would you like to rest~your Pokemon?
+:endif
+:if:daytime(2)
+:then
+@Text:Hello, and welcome to~the Pokemon Center.*We restore your tired~Pokemon to full health.*Would you like to rest~your Pokemon?
+:endif
+:if:daytime(3)
+:then
+@Text:Good evening! Welcome~to the Pokemon Center.*We restore your tired~Pokemon to full health.*Would you like to rest~your Pokemon?
+:endif
+@Options:Yes,No
+:when:Yes
+@Text:OK, I'll take your~Pokemon for a few~seconds.
+@Turn:0,1
+@Heal
+@Wait:100
+@Turn:0,2
+@Text:Thank you for waiting.*We've restored your~Pokemon to full health.*We hope to see you~again!
+:when:No
+@Text:We hope to see you~again!
+:endwhen
+:end

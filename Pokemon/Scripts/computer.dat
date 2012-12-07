@@ -1,0 +1,10 @@
+@Text:Booting up the PC...*Choose a host to~connect to.
+@Options:Bills PC,<playername>s PC,Hall of Fame,Log off
+:when:Bills PC
+@Text:Pokemon storage~system accessed.
+@Action:StorageSystem
+:when:Log off
+@Text:Kolben OS~shutting down...
+:end
+:endwhen
+:end

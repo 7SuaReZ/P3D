@@ -1,0 +1,8 @@
+@Text:Do you want to~heal your POKEMON?
+@Options:Yes,No
+:when:Yes
+@Heal
+@Wait:100
+@Text:Your POKEMON are~fully restored.
+:endwhen
+:end

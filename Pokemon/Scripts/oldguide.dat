@@ -1,0 +1,78 @@
+:if:position(Player,32,0,7)
+:then
+@Text:You're a rookie~trainer aren't you?~I can tell!*That's OK!~Everyone is a rookie~at some point!*If you'd like,~I can teach you a~few things.
+@Options:Yes,No
+:when:Yes
+@Text:I am very sorry~but you are standing~in my way.
+:end
+:endif
+
+:if:not register(oldguide)
+:then
+@Text:You're a rookie~trainer aren't you?~I can tell!*That's OK!~Everyone is a rookie~at some point!*If you'd like,~I can teach you a~few things.
+@Options:Yes,No
+:when:Yes
+
+@Text:OK, then!~Follow me!
+@Turn:2,1
+@Move:2,2
+@Move:Player,1
+@Turn:Player,1
+@Move:Player,1
+@Turn:2,0
+@Turn:Player,3
+@Text:This is a~POKEMON CENTER.*They heal your~POKEMON in no time~at all.*You'll be relying~on them a lot, so~you better learn~about them.
+
+@Turn:2,1
+@Turn:Player,1
+@Move:2,6
+@Turn:2,0
+@Move:Player,6
+@Turn:Player,3
+@Text:This is a~POKEMON MART.~They sell BALLS for~catching wild POKEMON~and other useful items.
+
+@Turn:2,1
+@Turn:Player,1
+@Move:2,7
+@Turn:2,0
+@Move:Player,7
+@Turn:Player,3
+@Text:ROUTE 30 is out~this way.*Trainers will be~battling their prized~POKEMON there.
+
+@Turn:2,1
+@Turn:Player,1
+@Move:2,4
+@Move:Player,4
+@Turn:2,2
+@Move:2,1
+@Move:Player,1
+@Turn:Player,1
+@Move:2,3
+@Turn:2,1
+@Move:2,2
+@Move:Player,3
+@Turn:Player,3
+@Move:Player,2
+@Text:This is the sea,~as you can see.*Some POKEMON are~found only in water.
+
+@Turn:Player,2
+@Turn:2,3
+@Move:2,10
+@Turn:2,2
+@Move:2,1
+@Turn:2,3
+@Move:Player,9
+@Turn:Player,3
+@Move:Player,2
+@Turn:Player,1
+@Move:2,5
+@Turn:2,1
+@Move:Player,5
+@Text:Here...*It's my house!~Thanks for your~company.*I wish you luck~on your journey!
+@NPC:register(cherrygrove.dat|2|position|27,0,12)
+@Register:oldguide
+:endwhen
+:else
+@Text:Here...*It's my house!~Thanks for your~company.*I wish you luck~on your journey!
+:endif
+:end

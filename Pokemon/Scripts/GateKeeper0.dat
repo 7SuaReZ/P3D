@@ -1,0 +1,13 @@
+:if:regionWeather(0)
+:then
+@Text:The weather is clear~outside today.~You should go for~a walk and enjoy~the day.
+:endif
+:if:regionWeather(1)
+:then
+@Text:Oh no! It rains outside!~Maybe you should go to~the next Pokemon Center~and stay there untill~the rain is gone.
+:endif
+:if:regionWeather(2)
+:then
+@Text:It snows outside.~That means the entire ground~is covered in snow!~Go out and enjoy this~beautiful appearance.
+:endif
+:end

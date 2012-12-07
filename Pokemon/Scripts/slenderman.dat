@@ -1,0 +1,9 @@
+@Text:Don't look.*Or it takes you!
+@Warp:0,19,0,15
+@Turn:0,3
+@Wait:50
+@Turn:Player,2
+@Wait:10
+@Turn:0,2
+@Move:0,2
+:end

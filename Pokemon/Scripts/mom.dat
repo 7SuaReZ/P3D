@@ -1,0 +1,13 @@
+:if:register(mom_wait)
+:then
+@Text:PROF. ELM is waiting~for you.*Hurry up, baby!
+@Turn:0,1
+:endif
+
+:if:register(mom_adventure1)
+:then
+@Text:So, what was PROF.~ELM's errand?*...*That does sound~challenging.*But, you should be~proud that people~rely on you.
+@Turn:0,1
+:endif
+
+:end

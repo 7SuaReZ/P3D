@@ -1,0 +1,45 @@
+:if:position(Player,5,0,2)
+:then
+:if:not register(pokemongot)
+:then
+@Text:ELM: Please check~all the POKEMON~at first.
+:end
+:endif
+:if:register(pokemongot)
+:then
+@Text:It contains a~POKEMON caught by~PROF.ELM.
+:end
+:endif
+:endif
+
+:if:not register(pokemongot)
+:then
+@ViewPokemonImage:4,0,1
+@Text:ELM: You'll take~Charmander, the fire~POKEMON?
+@Options:Yes,No
+:when:Yes
+@NPC:remove(2)
+@NPC:register(elmlab.dat|2|remove|1)
+@Register:pokemongot
+@Register:starter2
+@Text:ELM: I think that's a~great POKEMON too!
+@Action:GetPokemon(4,5,As a gift from Prof. Elm,5,at New Bark Town)
+@Text:<playername> received~Charmander!
+@Turn:Player,1
+@Move:Player,1
+@Turn:Player,3
+@Move:Player,1
+@Turn:0,2
+@Text:MR.POKEMON lives near~CHERRYGROVE, the next~city.*It's almost a direct~route to there.
+@Turn:0,1
+@Text:You can heal your~POKEMON with this~machine.
+@Turn:0,2
+@Unregister:elm1
+@Register:elm2
+:when:No
+@Text:ELM: Think it over~carefully.*Your partner is~important.
+:endwhen
+:else
+@Text:It contains a~POKEMON caught by~PROF.ELM.
+:endif
+:end

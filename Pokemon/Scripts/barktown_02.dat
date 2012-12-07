@@ -21,6 +21,6 @@
 @Move:Player,1
 @Turn:Player,1
 @Turn:1,2
-@Text:It's dangorous to~go out without a~POKEMON!*Wild POKEMON~jump out of the~grass on the way~to the next town.
+@Text:It's dangerous to~go out without a~POKEMON!*Wild POKEMON~jump out of the~grass on the way~to the next town.
 :endif
 :end

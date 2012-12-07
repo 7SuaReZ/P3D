@@ -4,7 +4,7 @@
 :endif
 :if:regionWeather(1)
 :then
-@Text:Oh no! It rains outside!~Maybe you should go to~the next Pokemon Center~and stay there untill~the rain is gone.
+@Text:Oh no! It rains outside!~Maybe you should go to~the next Pokemon Center~and stay there until~the rain is gone.
 :endif
 :if:regionWeather(2)
 :then
